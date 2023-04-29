@@ -2,13 +2,18 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <nav className="bg-black dark:bg-grey-900">
+        <nav className="bg-black dark:bg-gray-900">
             <div className="w-screen h-[80px] z-10 bg-white fixed drop-shadow-md">
                 <div className='px-2 flex justify-between items-center w-full h-full'>
-                    <div className="flex items-center">
-                        <h1 className="text-4xl item Center font-bold pl-5">Veritas</h1>
-                        <button className="flex justify-between mr-auto">About Our Project</button>
-                    </div>
+                <div className="flex items-center">
+                    <h1 className="text-4xl item Center font-bold pl-5">Veritas</h1>
+                    <div className="flex-1"></div>
+                </div>
+                <div className="flex items-center">
+                    <button className="mr-2 border border-gray-400 px-3 py-1 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-700">Home</button>
+                    <button className="mr-2 border border-gray-400 px-3 py-1 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-700">About</button>
+                    <button className="border border-gray-400 px-3 py-1 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-700">Model</button>
+                </div>
                 </div>
             </div>
         </nav>
