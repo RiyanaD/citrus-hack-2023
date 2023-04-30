@@ -5,7 +5,7 @@ import test
 app = Flask(__name__)
 
 @app.route('/predict')
-def my_profile():
+def model_predict():
     
 
 if __name__ == '__main__':
