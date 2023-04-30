@@ -13,21 +13,12 @@ const Navbar = () => {
                             <div className="flex-1"></div>
                         </div>
                         <div className="flex items-center">
-                            <button className="mr-2 border border-gray-400 px-3 py-1 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-700">Home</button>
-                            <button className="mr-2 border border-gray-400 px-3 py-1 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-700">About</button>
-                            <button className="border border-gray-400 px-3 py-1 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-700">Model</button>
+
+                            <button className="border border-gray-400 px-3 py-1 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-700 m-2">About Our Project</button>
                         </div>
                     </div>
                 </div>
             </nav>
-
-            <div className='max-w-[1240px] mx-auto px-2 mt-[80px]'>
-                <p className='text-2xl py-8 text-gray-500 text-center'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis,
-                    ab. Officia sunt nulla aspernatur culpa, eaque tenetur excepturi
-                    nostrum tempore.
-                </p>
-            </div>
     </div>
     );
 };
