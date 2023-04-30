@@ -1,1 +1,0 @@
-love = input("Enter your favorite color: ")
