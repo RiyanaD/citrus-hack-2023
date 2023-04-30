@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const Navbar = () => {
     return (
         <div className="flex flex-col">
@@ -12,9 +11,8 @@ const Navbar = () => {
                             <div className="flex-1"></div>
                         </div>
                         <div className="flex items-center">
-                            <button className="border border-gray-400 px-3 py-1 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-700 m-2">Home</button>
+
                             <button className="border border-gray-400 px-3 py-1 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-700 m-2">About Our Project</button>
-                            
                         </div>
                     </div>
                 </div>
@@ -25,5 +23,3 @@ const Navbar = () => {
     
 
 export default Navbar
-
-
