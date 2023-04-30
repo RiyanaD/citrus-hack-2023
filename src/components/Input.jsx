@@ -1,12 +1,27 @@
 import React,{useState} from 'react'
-import { FaSearch } from "react-icons/fa"
+import { FaSearch } from 'react-icons/fa'
+
+
+
+/*const fetchData = () => {
+    fetch(`${API_URL}front/`)
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+        })
+        .catch(error => {
+            console.log(error);
+        });
+}; */
 
 
 const Input = () => {
+    /*const API_URL = "http://127.0.0.1:8000/api/";
     const [inputURL, setInputURL] = useState('');
     const handleButtonClick = () => {
         //calling script with inputURL
-    };
+    }; */
+
     return (  
         <div className = "flex flex-col">
              <div className='max-w-[1240px] mx-auto px-2 mt-[80px]'>
@@ -26,8 +41,7 @@ const Input = () => {
                 </div>
                 <div className = "flex justify-center mt-2">
                     <button
-                        className = "transition hover:translate-y-1 duration-300 ease-out text-white bg-white-100 rounded-md border-white-300 border px-3 py-2 placeholder-gray-400 text-gray-700 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:ring-opacity-50 font-bold text-1xl m-3"
-                        onClick = {handleButtonClick}>
+                        className = "transition hover:translate-y-1 duration-300 ease-out text-white bg-white-100 rounded-md border-white-300 border px-3 py-2 placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:ring-opacity-50 font-bold text-1xl m-3">
                         Submit
                         <FaSearch className="text-2xl pl-2 text-white text-center inline-block align-middle mr-2" />
                     </button>

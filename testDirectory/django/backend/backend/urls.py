@@ -26,7 +26,7 @@ router.register(r'todos', views.TodoView, 'todo')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", front, name="front"),
+    path("front/", front),
     path('api/', include(router.urls)),
-    path('articlerating/', views.articlerating, name='articlerating'),
+    ##path('articlerating/', views.articlerating, name='articlerating'),
 ]
